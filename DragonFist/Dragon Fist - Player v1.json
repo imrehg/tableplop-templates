@@ -1,0 +1,1116 @@
+{
+  "properties": [
+    {
+      "id": 42468242,
+      "parentId": 42468239,
+      "type": "ability",
+      "data": null,
+      "name": "Dexterity",
+      "value": 0,
+      "rank": 2,
+      "message": "DEX check: {1d20 + dexterity}",
+      "formula": "floor ((dexterity-score - 10) / 2)",
+      "characterId": 774580
+    },
+    {
+      "id": 42468243,
+      "parentId": 42468242,
+      "type": "number",
+      "data": null,
+      "name": "dexterity-score",
+      "value": 10,
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42468244,
+      "parentId": 42468239,
+      "type": "ability",
+      "data": null,
+      "name": "Constitution",
+      "value": 0,
+      "rank": 3,
+      "message": "Constitution check: {1d20 + constitution}",
+      "formula": "floor ((constitution-score - 10) / 2)",
+      "characterId": 774580
+    },
+    {
+      "id": 42468245,
+      "parentId": 42468244,
+      "type": "number",
+      "data": null,
+      "name": "constitution-score",
+      "value": 10,
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42468246,
+      "parentId": 42468239,
+      "type": "ability",
+      "data": null,
+      "name": "Intelligence",
+      "value": 0,
+      "rank": 4,
+      "message": "INT check: {1d20 + intelligence}",
+      "formula": "floor ((intelligence-score - 10) / 2)",
+      "characterId": 774580
+    },
+    {
+      "id": 42468247,
+      "parentId": 42468246,
+      "type": "number",
+      "data": null,
+      "name": "intelligence-score",
+      "value": 10,
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42468248,
+      "parentId": 42468239,
+      "type": "ability",
+      "data": null,
+      "name": "Wisdom",
+      "value": 0,
+      "rank": 5,
+      "message": "WIS check: {1d20 + wisdom}",
+      "formula": "floor ((wisdom-score - 10) / 2)",
+      "characterId": 774580
+    },
+    {
+      "id": 42468249,
+      "parentId": 42468248,
+      "type": "number",
+      "data": null,
+      "name": "wisdom-score",
+      "value": 10,
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42468250,
+      "parentId": 42468239,
+      "type": "ability",
+      "data": null,
+      "name": "Charisma",
+      "value": 0,
+      "rank": 6,
+      "message": "Charisma check: {1d20 + charisma}",
+      "formula": "floor ((charisma-score - 10) / 2)",
+      "characterId": 774580
+    },
+    {
+      "id": 42468251,
+      "parentId": 42468250,
+      "type": "number",
+      "data": null,
+      "name": "charisma-score",
+      "value": 10,
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42468234,
+      "parentId": null,
+      "type": "tab-section",
+      "data": {},
+      "value": "Character",
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42468236,
+      "parentId": 42468234,
+      "type": "horizontal-section",
+      "data": null,
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42468237,
+      "parentId": 42468236,
+      "type": "section",
+      "data": null,
+      "rank": 0,
+      "size": 61.468812877263616,
+      "characterId": 774580
+    },
+    {
+      "id": 42468238,
+      "parentId": 42468236,
+      "type": "section",
+      "data": null,
+      "rank": 1,
+      "size": 38.531187122736405,
+      "characterId": 774580
+    },
+    {
+      "id": 42468239,
+      "parentId": 42468237,
+      "type": "title-section",
+      "data": {
+        "collapsed": false
+      },
+      "value": "Abilities",
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42468380,
+      "parentId": 42468239,
+      "type": "ability",
+      "data": null,
+      "name": "Strength",
+      "value": 0,
+      "rank": 1,
+      "message": "STR check: {1d20 + strength}",
+      "formula": "floor ((strength-score - 10) / 2)",
+      "characterId": 774580
+    },
+    {
+      "id": 42468381,
+      "parentId": 42468380,
+      "type": "number",
+      "data": null,
+      "name": "strength-score",
+      "value": 10,
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42468396,
+      "parentId": 42468238,
+      "type": "title-section",
+      "data": {
+        "collapsed": false
+      },
+      "value": "Ability Bonuses",
+      "rank": 1,
+      "characterId": 774580
+    },
+    {
+      "id": 42469877,
+      "parentId": 42544129,
+      "type": "paragraph",
+      "data": null,
+      "value": "<p><strong>Ability score- &gt; Bonus dice [level, as below]</strong><br>1 - 10 -&gt; 0 [0]<br>11–13 -&gt; 'd3–1' [1]<br>14–15 -&gt; 'd3' [2]<br>16–17 -&gt; 'd4' [3]<br>18 -&gt; 'd6' [4]<br>19 -&gt; 'd8' [5]<br>20 -&gt; 'd10' [6]<br>21 -&gt; 'd12' [7]</p>",
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42469898,
+      "parentId": 42469896,
+      "type": "text",
+      "data": null,
+      "name": "class",
+      "value": "fighter",
+      "rank": -1,
+      "characterId": 774580
+    },
+    {
+      "id": 42469900,
+      "parentId": 42469896,
+      "type": "text",
+      "data": null,
+      "name": "level",
+      "value": "3",
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42469901,
+      "parentId": 42469896,
+      "type": "text",
+      "data": null,
+      "name": "alignment",
+      "value": "lawful neutral",
+      "rank": 3,
+      "characterId": 774580
+    },
+    {
+      "id": 42469902,
+      "parentId": 42468237,
+      "type": "appearance",
+      "data": {
+        "appearances": []
+      },
+      "rank": 3,
+      "characterId": 774580
+    },
+    {
+      "id": 42469896,
+      "parentId": 42468237,
+      "type": "title-section",
+      "data": {
+        "collapsed": false
+      },
+      "value": "Info",
+      "rank": 2,
+      "characterId": 774580
+    },
+    {
+      "id": 42469904,
+      "parentId": 42468237,
+      "type": "title-section",
+      "data": null,
+      "value": "Details",
+      "rank": 4,
+      "characterId": 774580
+    },
+    {
+      "id": 42469905,
+      "parentId": 42469896,
+      "type": "text",
+      "data": null,
+      "name": "armor-class",
+      "value": "10",
+      "rank": -2,
+      "characterId": 774580
+    },
+    {
+      "id": 42470023,
+      "parentId": 42468238,
+      "type": "title-section",
+      "data": {
+        "collapsed": false
+      },
+      "value": "Stunt Bonuses",
+      "rank": 2,
+      "characterId": 774580
+    },
+    {
+      "id": 42470024,
+      "parentId": 42470023,
+      "type": "text",
+      "data": null,
+      "name": "might-level",
+      "value": "0",
+      "rank": 0,
+      "message": "Might stunt roll: {d@:[0,3,3,4,6,8,10,12,20][might-level]: - @:[0,1,0,0,0,0,0,0,0][might-level]:}",
+      "formula": "strength-bonus-level + might-level-up",
+      "characterId": 774580
+    },
+    {
+      "id": 42470028,
+      "parentId": 42470023,
+      "type": "text",
+      "data": null,
+      "name": "savvy-level",
+      "value": "0",
+      "rank": 3,
+      "message": "Savvy stunt roll: {d@:[0,3,3,4,6,8,10,12,20][savvy-level]: - @:[0,1,0,0,0,0,0,0,0][savvy-level]:}",
+      "formula": "intelligence-bonus-level + savvy-level-up",
+      "characterId": 774580
+    },
+    {
+      "id": 42470030,
+      "parentId": 42470023,
+      "type": "text",
+      "data": null,
+      "name": "charm-level",
+      "value": "3",
+      "rank": 5,
+      "message": "Charm stunt roll: {d@:[0,3,3,4,6,8,10,12,20][charm-level]: - @:[0,1,0,0,0,0,0,0,0][charm-level]:}",
+      "formula": "charisma-bonus-level + charm-level-up",
+      "characterId": 774580
+    },
+    {
+      "id": 42492106,
+      "parentId": null,
+      "type": "tab-section",
+      "data": null,
+      "value": "Actions",
+      "rank": 1,
+      "characterId": 774580
+    },
+    {
+      "id": 42519236,
+      "parentId": 42470024,
+      "type": "checkboxes",
+      "data": null,
+      "name": "might-level-up",
+      "value": 0,
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42519237,
+      "parentId": 42519236,
+      "type": "number",
+      "data": null,
+      "name": "might-level-up-max",
+      "value": 4,
+      "rank": 1,
+      "characterId": 774580
+    },
+    {
+      "id": 42541413,
+      "parentId": 42468396,
+      "type": "number",
+      "data": null,
+      "name": "strength-bonus-level",
+      "value": 0,
+      "rank": 8,
+      "message": "STR-bonus roll: {d@:[0,3,3,4,6,8,10,12][str-bonus-level]: - @:[0, 1, 0, 0, 0, 0, 0, 0][str-bonus-level]:}",
+      "formula": "str-score < 11 ? 0 : str-score <14 ? 1 : str-score < 16 ? 2 : str-score  < 18 ? 3 : str-score == 18 ? 4 : str-score == 19 ? 5 : str-score == 20 ? 6 : 7",
+      "characterId": 774580
+    },
+    {
+      "id": 42541522,
+      "parentId": 42468396,
+      "type": "number",
+      "data": null,
+      "name": "dexterity-bonus-level",
+      "value": 0,
+      "rank": 9,
+      "message": "DEX-bonus roll: {d@:[0,3,3,4,6,8,10,12][dexterity-bonus-level]: - @:[0, 1, 0, 0, 0, 0, 0, 0][dexterity-bonus-level]:}",
+      "formula": "dex-score < 11 ? 0 : dex-score <14 ? 1 : dex-score < 16 ? 2 : dex-score  < 18 ? 3 : dex-score == 18 ? 4 : dex-score == 19 ? 5 : dex-score == 20 ? 6 : 7",
+      "characterId": 774580
+    },
+    {
+      "id": 42541528,
+      "parentId": 42468396,
+      "type": "number",
+      "data": null,
+      "name": "constitution-bonus-level",
+      "value": 0,
+      "rank": 10,
+      "message": "CON-bonus roll: {d@:[0,3,3,4,6,8,10,12][con-bonus-level]: - @:[0, 1, 0, 0, 0, 0, 0, 0][con-bonus-level]:}",
+      "formula": "con-score < 11 ? 0 : con-score <14 ? 1 : con-score < 16 ? 2 : con-score  < 18 ? 3 : con-score == 18 ? 4 : con-score == 19 ? 5 : con-score == 20 ? 6 : 7",
+      "characterId": 774580
+    },
+    {
+      "id": 42541529,
+      "parentId": 42468396,
+      "type": "number",
+      "data": null,
+      "name": "intelligence-bonus-level",
+      "value": 0,
+      "rank": 12,
+      "message": "INT-bonus roll: {d@:[0,3,3,4,6,8,10,12][int-bonus-level]: - @:[0, 1, 0, 0, 0, 0, 0, 0][int-bonus-level]:}",
+      "formula": "int-score < 11 ? 0 : int-score <14 ? 1 : int-score < 16 ? 2 : int-score  < 18 ? 3 : int-score == 18 ? 4 : int-score == 19 ? 5 : int-score == 20 ? 6 : 7",
+      "characterId": 774580
+    },
+    {
+      "id": 42542578,
+      "parentId": 42468396,
+      "type": "number",
+      "data": null,
+      "name": "wisdom-bonus-level",
+      "value": 0,
+      "rank": 14,
+      "message": "WIS-bonus roll: {d@:[0,3,3,4,6,8,10,12][wis-bonus-level]: - @:[0, 1, 0, 0, 0, 0, 0, 0][wis-bonus-level]:}",
+      "formula": "wis-score < 11 ? 0 : wis-score <14 ? 1 : wis-score < 16 ? 2 : wis-score  < 18 ? 3 : wis-score == 18 ? 4 : wis-score == 19 ? 5 : wis-score == 20 ? 6 : 7",
+      "characterId": 774580
+    },
+    {
+      "id": 42542579,
+      "parentId": 42468396,
+      "type": "number",
+      "data": null,
+      "name": "charisma-bonus-level",
+      "value": 0,
+      "rank": 15,
+      "message": "CHA-bonus roll: {d@:[0,3,3,4,6,8,10,12][cha-bonus-level]: - @:[0, 1, 0, 0, 0, 0, 0, 0][cha-bonus-level]:}",
+      "formula": "cha-score < 11 ? 0 : cha-score <14 ? 1 : cha-score < 16 ? 2 : cha-score  < 18 ? 3 : cha-score == 18 ? 4 : cha-score == 19 ? 5 : cha-score == 20 ? 6 : 7",
+      "characterId": 774580
+    },
+    {
+      "id": 42543445,
+      "parentId": 42470027,
+      "type": "checkboxes",
+      "data": null,
+      "name": "fortitude-level-up",
+      "value": 0,
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42470027,
+      "parentId": 42470023,
+      "type": "text",
+      "data": null,
+      "name": "fortitude-level",
+      "value": "0",
+      "rank": 2,
+      "message": "Fortitude stunt roll: {d@:[0,3,3,4,6,8,10,12,20][fortitude-level]: - @:[0,1,0,0,0,0,0,0,0][fortitude-level]:}",
+      "formula": "constitution-level + fortitude-level-up",
+      "characterId": 774580
+    },
+    {
+      "id": 42543443,
+      "parentId": 42470026,
+      "type": "checkboxes",
+      "data": null,
+      "name": "acrobatics-level-up",
+      "value": 0,
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42543444,
+      "parentId": 42543443,
+      "type": "number",
+      "data": null,
+      "name": "acrobatics-level-up-max",
+      "value": 4,
+      "rank": 1,
+      "characterId": 774580
+    },
+    {
+      "id": 42543446,
+      "parentId": 42543445,
+      "type": "number",
+      "data": null,
+      "name": "fortitude-level-up-max",
+      "value": 4,
+      "rank": 1,
+      "characterId": 774580
+    },
+    {
+      "id": 42543447,
+      "parentId": 42470028,
+      "type": "checkboxes",
+      "data": null,
+      "name": "savvy-level-up",
+      "value": 0,
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42543448,
+      "parentId": 42543447,
+      "type": "number",
+      "data": null,
+      "name": "savvy-level-up-max",
+      "value": 4,
+      "rank": 1,
+      "characterId": 774580
+    },
+    {
+      "id": 42543449,
+      "parentId": 42470029,
+      "type": "checkboxes",
+      "data": null,
+      "name": "insight-level-up",
+      "value": 0,
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42543450,
+      "parentId": 42543449,
+      "type": "number",
+      "data": null,
+      "name": "insight-level-up-max",
+      "value": 4,
+      "rank": 1,
+      "characterId": 774580
+    },
+    {
+      "id": 42543451,
+      "parentId": 42470030,
+      "type": "checkboxes",
+      "data": null,
+      "name": "charm-level-up",
+      "value": 3,
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42543452,
+      "parentId": 42543451,
+      "type": "number",
+      "data": null,
+      "name": "charm-level-up-max",
+      "value": 4,
+      "rank": 1,
+      "characterId": 774580
+    },
+    {
+      "id": 42470029,
+      "parentId": 42470023,
+      "type": "text",
+      "data": null,
+      "name": "insight-level",
+      "value": "0",
+      "rank": 4,
+      "message": "Insight stunt roll: {d@:[0,3,3,4,6,8,10,12,20][insight-level]: - @:[0,1,0,0,0,0,0,0,0][insight-level]:}",
+      "formula": "wisdom-bonus-level + insight-level-up",
+      "characterId": 774580
+    },
+    {
+      "id": 42544129,
+      "parentId": 42468238,
+      "type": "title-section",
+      "data": {
+        "collapsed": false
+      },
+      "value": "Ability & Stunt Bonus Mapping",
+      "rank": -1,
+      "characterId": 774580
+    },
+    {
+      "id": 42544381,
+      "parentId": 42545132,
+      "type": "message",
+      "data": null,
+      "name": "martial-art-attack",
+      "icon": "/images/message.png",
+      "rank": 0,
+      "message": "Martial art attack. To hit: ?, ROF: ?, Speed: Fa(6), Damage: {1d6}",
+      "characterId": 774580
+    },
+    {
+      "id": 42545132,
+      "parentId": 42492106,
+      "type": "title-section",
+      "data": {
+        "collapsed": false
+      },
+      "value": "Attacks",
+      "rank": -1,
+      "characterId": 774580
+    },
+    {
+      "id": 42545136,
+      "parentId": 42549835,
+      "type": "number",
+      "data": null,
+      "name": "bribe",
+      "value": 15,
+      "rank": -1,
+      "message": "Bribe: {bribe + 5 * (d@:[0,3,3,4,6,8,10,12,20][charm-level]: - @:[0,1,0,0,0,0,0,0,0][charm-level]:)}%",
+      "characterId": 774580
+    },
+    {
+      "id": 42545137,
+      "parentId": 42549835,
+      "type": "number",
+      "data": null,
+      "name": "climb-walls",
+      "value": 70,
+      "rank": 0,
+      "message": "Climb walls check: {climb-walls + 5 * (d@:[0,3,3,4,6,8,10,12,20][acrobatics-level]: - @:[0,1,0,0,0,0,0,0,0][acrobatics-level]:)}%",
+      "characterId": 774580
+    },
+    {
+      "id": 42545956,
+      "parentId": 42549835,
+      "type": "number",
+      "data": null,
+      "name": "find-remove-traps",
+      "value": 5,
+      "rank": 7,
+      "message": "Find trap: {find-remove-traps+ 5 * (d@:[0,3,3,4,6,8,10,12,20][savvy-level]: - @:[0,1,0,0,0,0,0,0,0][savvy-level]:)}%; Remove trap: {find-remove-traps+ 5 * (d@:[0,3,3,4,6,8,10,12,20][acrobatics-level]: - @:[0,1,0,0,0,0,0,0,0][acrobatics-level]:)}%",
+      "characterId": 774580
+    },
+    {
+      "id": 42549076,
+      "parentId": 42468239,
+      "type": "health",
+      "data": null,
+      "name": "hit-points",
+      "value": 10,
+      "rank": 8,
+      "characterId": 774580
+    },
+    {
+      "id": 42549077,
+      "parentId": 42549076,
+      "type": "number",
+      "data": null,
+      "name": "hit-points-maximum",
+      "value": 10,
+      "rank": 1,
+      "characterId": 774580
+    },
+    {
+      "id": 42549078,
+      "parentId": 42549076,
+      "type": "number",
+      "data": null,
+      "name": "hit-points-temporary",
+      "value": 0,
+      "rank": 2,
+      "characterId": 774580
+    },
+    {
+      "id": 42549217,
+      "parentId": 42549835,
+      "type": "number",
+      "data": null,
+      "name": "detect-undead",
+      "value": 10,
+      "rank": 2,
+      "message": "Detect undead check: {detect-undead + 5 * (d@:[0,3,3,4,6,8,10,12,20][insight-level]: - @:[0,1,0,0,0,0,0,0,0][insight-level]:)}%",
+      "characterId": 774580
+    },
+    {
+      "id": 42549200,
+      "parentId": 42470023,
+      "type": "title-section",
+      "data": null,
+      "value": "Saving Throw Targets",
+      "rank": 6,
+      "characterId": 774580
+    },
+    {
+      "id": 42549201,
+      "parentId": 42549200,
+      "type": "number",
+      "data": null,
+      "name": "par-poi-dm-save",
+      "value": 16,
+      "rank": 0,
+      "message": "Save target for Paralyzation/Poision/Death Magic: {par-poi-dm-save}",
+      "characterId": 774580
+    },
+    {
+      "id": 42549213,
+      "parentId": 42469904,
+      "type": "heading",
+      "data": null,
+      "value": "Intro & Description",
+      "rank": -1,
+      "characterId": 774580
+    },
+    {
+      "id": 42549207,
+      "parentId": 42469896,
+      "type": "text",
+      "data": null,
+      "name": "sex",
+      "value": "male",
+      "rank": 4,
+      "characterId": 774580
+    },
+    {
+      "id": 42549202,
+      "parentId": 42549200,
+      "type": "number",
+      "data": null,
+      "name": "rod-staff-wand-save",
+      "value": 18,
+      "rank": 1,
+      "message": "Save target for Rod/Staff/Wand: {rod-staff-wand-save}",
+      "characterId": 774580
+    },
+    {
+      "id": 42549208,
+      "parentId": 42469896,
+      "type": "number",
+      "data": null,
+      "name": "age",
+      "value": 24,
+      "rank": 5,
+      "characterId": 774580
+    },
+    {
+      "id": 42549209,
+      "parentId": 42469904,
+      "type": "paragraph",
+      "data": null,
+      "value": "<p>Once upon a time...</p>",
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42549214,
+      "parentId": 42469904,
+      "type": "heading",
+      "data": null,
+      "value": "Equipment",
+      "rank": 3,
+      "characterId": 774580
+    },
+    {
+      "id": 42549203,
+      "parentId": 42549200,
+      "type": "number",
+      "data": null,
+      "name": "pet-poly-save",
+      "value": 17,
+      "rank": 2,
+      "message": "Save target for Petrification/Polymorf: {pet-poly-save}",
+      "characterId": 774580
+    },
+    {
+      "id": 42549204,
+      "parentId": 42549200,
+      "type": "number",
+      "data": null,
+      "name": "breath-weapon-save",
+      "value": 20,
+      "rank": 3,
+      "message": "Save target for Breath Weapon: {breath-weapon-save}",
+      "characterId": 774580
+    },
+    {
+      "id": 42549205,
+      "parentId": 42549200,
+      "type": "number",
+      "data": null,
+      "name": "spell-save",
+      "value": 19,
+      "rank": 4,
+      "message": "Save target for Spell Save: {spell-save}",
+      "characterId": 774580
+    },
+    {
+      "id": 42549215,
+      "parentId": 42469904,
+      "type": "paragraph",
+      "data": null,
+      "value": "<p>Money: X tael</p><p>Weapons: ...</p>",
+      "rank": 4,
+      "characterId": 774580
+    },
+    {
+      "id": 42549210,
+      "parentId": 42469904,
+      "type": "heading",
+      "data": null,
+      "value": "Special Abilities",
+      "rank": 1,
+      "characterId": 774580
+    },
+    {
+      "id": 42549211,
+      "parentId": 42469904,
+      "type": "paragraph",
+      "data": null,
+      "value": "<p>...</p>",
+      "rank": 2,
+      "characterId": 774580
+    },
+    {
+      "id": 42470026,
+      "parentId": 42470023,
+      "type": "text",
+      "data": null,
+      "name": "acrobatics-level",
+      "value": "0",
+      "rank": 1,
+      "message": "Acrobatics stunt roll: {d@:[0,3,3,4,6,8,10,12,20][acrobatics-level]: - @:[0,1,0,0,0,0,0,0,0][acrobatics-level]:}",
+      "formula": "dexterity-bonus-level + acrobatics-level-up",
+      "characterId": 774580
+    },
+    {
+      "id": 42549216,
+      "parentId": 42549835,
+      "type": "number",
+      "data": null,
+      "name": "detect-noise",
+      "value": 15,
+      "rank": 1,
+      "message": "Detect noise check: {detect-noise + 5 * (d@:[0,3,3,4,6,8,10,12,20][savvy-level]: - @:[0,1,0,0,0,0,0,0,0][savvy-level]:)}%",
+      "characterId": 774580
+    },
+    {
+      "id": 42549223,
+      "parentId": 42549835,
+      "type": "number",
+      "data": null,
+      "name": "pick-pockets",
+      "value": 20,
+      "rank": 10,
+      "message": "Pick Pockets check: {pick-pockets + 5 * (d@:[0,3,3,4,6,8,10,12,20][acrobatics-level]: - @:[0,1,0,0,0,0,0,0,0][acrobatics-level]:)}%",
+      "characterId": 774580
+    },
+    {
+      "id": 42549218,
+      "parentId": 42549835,
+      "type": "number",
+      "data": null,
+      "name": "disguise",
+      "value": 20,
+      "rank": 5,
+      "message": "Disguise check: {disguise + 5 * (d@:[0,3,3,4,6,8,10,12,20][charm-level]: - @:[0,1,0,0,0,0,0,0,0][charm-level]:)}%",
+      "characterId": 774580
+    },
+    {
+      "id": 42549219,
+      "parentId": 42549835,
+      "type": "number",
+      "data": null,
+      "name": "escape-bonds",
+      "value": 15,
+      "rank": 6,
+      "message": "Escape bonds check: {escape-bonds + 5 * (d@:[0,3,3,4,6,8,10,12,20][max(might-level, acrobatics-level)]: - @:[0,1,0,0,0,0,0,0,0][max(might-level, acrobatics-level)]:)}%",
+      "characterId": 774580
+    },
+    {
+      "id": 42549224,
+      "parentId": 42549835,
+      "type": "number",
+      "data": null,
+      "name": "tracking",
+      "value": 25,
+      "rank": 11,
+      "message": "Tracking check: {tracking + 5 * (d@:[0,3,3,4,6,8,10,12,20][savvy-level]: - @:[0,1,0,0,0,0,0,0,0][savvy-level]:)}%",
+      "characterId": 774580
+    },
+    {
+      "id": 42549220,
+      "parentId": 42549835,
+      "type": "number",
+      "data": null,
+      "name": "hide-in-shadows",
+      "value": 10,
+      "rank": 4,
+      "message": "Hide in Shadows check: {hide-in-shadows + 5 * (d@:[0,3,3,4,6,8,10,12,20][acrobatics-level]: - @:[0,1,0,0,0,0,0,0,0][acrobatics-level]:)}%",
+      "characterId": 774580
+    },
+    {
+      "id": 42549221,
+      "parentId": 42549835,
+      "type": "number",
+      "data": null,
+      "name": "move-silently",
+      "value": 20,
+      "rank": 8,
+      "message": "Move Silently check: {move-silently + 5 * (d@:[0,3,3,4,6,8,10,12,20][acrobatics-level]: - @:[0,1,0,0,0,0,0,0,0][acrobatics-level]:)}%",
+      "characterId": 774580
+    },
+    {
+      "id": 42549222,
+      "parentId": 42549835,
+      "type": "number",
+      "data": null,
+      "name": "open-locks",
+      "value": 10,
+      "rank": 9,
+      "message": "Open Locks check: {open-locks + 5 * (d@:[0,3,3,4,6,8,10,12,20][acrobatics-level]: - @:[0,1,0,0,0,0,0,0,0][acrobatics-level]:)}%",
+      "characterId": 774580
+    },
+    {
+      "id": 42549466,
+      "parentId": 42492106,
+      "type": "title-section",
+      "data": null,
+      "value": "Other",
+      "rank": 1,
+      "characterId": 774580
+    },
+    {
+      "id": 42549469,
+      "parentId": 42545132,
+      "type": "paragraph",
+      "data": null,
+      "value": "<p>For quick access add any kinds of attack, weapons regularly used, etc</p>",
+      "rank": -1,
+      "characterId": 774580
+    },
+    {
+      "id": 42549468,
+      "parentId": 42549835,
+      "type": "paragraph",
+      "data": null,
+      "value": "<p>The base percentage targets of the thief skills. The action pulls in the appropriate stunt bonus dice roll to create a target value in a message.</p>",
+      "rank": -2,
+      "characterId": 774580
+    },
+    {
+      "id": 42549471,
+      "parentId": null,
+      "type": "tab-section",
+      "data": null,
+      "value": "Skills",
+      "rank": 2,
+      "characterId": 774580
+    },
+    {
+      "id": 42549470,
+      "parentId": 42549466,
+      "type": "paragraph",
+      "data": null,
+      "value": "<p>Add any other recurring action that's relevant to your character, especially ones that involve dice rolls.</p>",
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42549631,
+      "parentId": 42549832,
+      "type": "heading",
+      "data": null,
+      "value": "Level 5",
+      "rank": 5,
+      "characterId": 774580
+    },
+    {
+      "id": 42549632,
+      "parentId": 42549832,
+      "type": "paragraph",
+      "data": null,
+      "value": "<p>Add or update spells to the appropriate level as learned. The <strong>checkbox</strong> is used to show which spells are prepared at the time. (Wizard: p66; Shaman p81)</p>",
+      "rank": -1,
+      "characterId": 774580
+    },
+    {
+      "id": 42549627,
+      "parentId": 42549832,
+      "type": "heading",
+      "data": null,
+      "value": "Level 1",
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42549628,
+      "parentId": 42549832,
+      "type": "heading",
+      "data": null,
+      "value": "Level 2",
+      "rank": 2,
+      "characterId": 774580
+    },
+    {
+      "id": 42549629,
+      "parentId": 42549832,
+      "type": "heading",
+      "data": null,
+      "value": "Level 3",
+      "rank": 3,
+      "characterId": 774580
+    },
+    {
+      "id": 42549630,
+      "parentId": 42549832,
+      "type": "heading",
+      "data": null,
+      "value": "Level 4",
+      "rank": 4,
+      "characterId": 774580
+    },
+    {
+      "id": 42549671,
+      "parentId": 42549832,
+      "type": "checkbox",
+      "data": null,
+      "name": "Backbiter",
+      "value": false,
+      "rank": 1,
+      "message": "",
+      "characterId": 774580
+    },
+    {
+      "id": 42549830,
+      "parentId": 42549471,
+      "type": "title-section",
+      "data": {
+        "collapsed": false
+      },
+      "value": "Martial Arts",
+      "rank": -2,
+      "characterId": 774580
+    },
+    {
+      "id": 42549832,
+      "parentId": 42549471,
+      "type": "title-section",
+      "data": {
+        "collapsed": false
+      },
+      "value": "Spells",
+      "rank": 7,
+      "characterId": 774580
+    },
+    {
+      "id": 42549835,
+      "parentId": 42549471,
+      "type": "title-section",
+      "data": null,
+      "value": "Thief Skills",
+      "rank": 8,
+      "characterId": 774580
+    },
+    {
+      "id": 42549957,
+      "parentId": 42549830,
+      "type": "heading",
+      "data": null,
+      "value": "Rank 1",
+      "rank": 0,
+      "characterId": 774580
+    },
+    {
+      "id": 42549958,
+      "parentId": 42549830,
+      "type": "heading",
+      "data": null,
+      "value": "Rank 2",
+      "rank": 2,
+      "characterId": 774580
+    },
+    {
+      "id": 42549959,
+      "parentId": 42549830,
+      "type": "heading",
+      "data": null,
+      "value": "Rank 3",
+      "rank": 3,
+      "characterId": 774580
+    },
+    {
+      "id": 42549960,
+      "parentId": 42549830,
+      "type": "heading",
+      "data": null,
+      "value": "Rank 4",
+      "rank": 4,
+      "characterId": 774580
+    },
+    {
+      "id": 42549961,
+      "parentId": 42549830,
+      "type": "heading",
+      "data": null,
+      "value": "Rank 5",
+      "rank": 5,
+      "characterId": 774580
+    },
+    {
+      "id": 42550756,
+      "parentId": 42469896,
+      "type": "text",
+      "data": null,
+      "name": "kit",
+      "value": "The Righteous Fists",
+      "rank": 2,
+      "characterId": 774580
+    },
+    {
+      "id": 42551469,
+      "parentId": 42545132,
+      "type": "message",
+      "data": null,
+      "name": "Monk's Stick",
+      "icon": "/images/message.png",
+      "rank": 1,
+      "message": "Monk's Stick: Fa(6): S-M damage {1d6} | L damage {1d4}",
+      "characterId": 774580
+    },
+    {
+      "id": 42552174,
+      "parentId": 42549830,
+      "type": "paragraph",
+      "data": null,
+      "value": "<p><strong>Cobra Strike</strong>: The character can make a called shot at –2 to hit instead of the usual –4.</p>",
+      "rank": 1,
+      "characterId": 774580
+    },
+    {
+      "id": 42552175,
+      "parentId": 42549830,
+      "type": "paragraph",
+      "data": null,
+      "value": "<p>Add or update known martial art maneuvers (p49). Useful to include reminders on the manouver's effect.</p>",
+      "rank": -1,
+      "characterId": 774580
+    }
+  ],
+  "private": false,
+  "type": "tableplop-character-v2"
+}
