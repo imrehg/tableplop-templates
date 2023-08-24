@@ -557,7 +557,7 @@
       "type": "message",
       "data": null,
       "name": "martial-art-attack",
-      "icon": "/images/message.png",
+      "icon": "https://raw.githubusercontent.com/imrehg/tableplop-templates/main/DragonFist/assets/silhouette-kung-fu-wushu-shaolin.jpg",
       "rank": 0,
       "message": "Martial art attack. To hit: ?, ROF: ?, Speed: Fa(6), Damage: {1d6}",
       "characterId": 774580
